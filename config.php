@@ -3,8 +3,8 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
-    'production' => false,
+    'baseUrl' => 'https://my-jigsaw-blog.com',
+    'production' => true,
     'siteName' => "Blog",
     'siteDescription' => 'My blog to share my moments',
     'siteAuthor' => 'Mazin',
