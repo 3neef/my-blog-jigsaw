@@ -5,6 +5,7 @@
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
         "build:production": "node --version",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --env=production --config=node_modules/laravel-mix/setup/webpack.config.js",
         "test": "echo \"Error: no test specified\" && exit 1",
         "prod": "mix --production"
     },

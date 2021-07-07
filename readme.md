@@ -93,4 +93,4 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, staging, prod
 npm run dev
 ```
-"# my-blog-jigsaw" 
+
