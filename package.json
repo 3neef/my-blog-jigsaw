@@ -4,6 +4,8 @@
         "dev": "mix",
         "watch": "mix watch",
         "staging": "NODE_ENV=staging mix",
+        "build:production": "node --version",
+        "test": "echo \"Error: no test specified\" && exit 1",
         "prod": "mix --production"
     },
     "devDependencies": {
